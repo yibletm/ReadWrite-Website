@@ -5,16 +5,14 @@ body{
 
 h1{
     transform:translateY(200px) translateX(100PX);
-
 color:rgb(122, 255, 197)
 }
 
 .email, .passW, .userN, .conpassW{
 transform: translateY(300px);
 font-size: 1.25rem;
-    text-align: center;
-    color:rgb(122, 204, 255);
- width: 100%;   
+text-align: center;
+color:rgb(122, 204, 255);  
 }
 
 .wrapper{
