@@ -9,10 +9,12 @@ color:rgb(122, 255, 197)
 }
 
 .email, .passW, .userN, .conpassW{
-transform: translateY(300px);
+box-sizing: border-box;
+transform: translateY(250px) translateX(330px);
 font-size: 1.25rem;
-text-align: center;
-color:rgb(122, 204, 255);  
+align-items: center;
+color:rgb(122, 204, 255);
+
 }
 
 .wrapper{
