@@ -4,13 +4,23 @@ body{
     background-size: 100000000px 120px;
 }
 
+h1{
+    text-align: center;
+   color: rgb(122, 255, 197)
+}
+
+.ArticleS{
+    text-align: center;
+}
+
 h3{
 color:#5faaff;
 max-width: 30ch;
-transform: translateY(25px)
+transform: translateX(25px)  translateY(25px)
 }
 
 h4{
+    color:#3371b8;
     max-width: 64ch;
     transform: translateX(500px) translateY(-400px);
 }
