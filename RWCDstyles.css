@@ -4,8 +4,6 @@ body{
     background-size: 100000000px 120px;
 }
 
-
-
 .ArticleS{
     text-align: center;
     transform: translateY(50px);
@@ -13,7 +11,7 @@ body{
 
 h1{
 color:#5faaff;
-max-width: 43ch;
-transform: translateX(500px)  translateY(150px)
+max-width: 51ch;
+transform: translateX(400px)  translateY(140px)
 }
 
