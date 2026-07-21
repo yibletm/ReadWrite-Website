@@ -4,17 +4,14 @@ body{
     background-size: 100000000px 120px;
 }
 
-h1{
-    text-align: center;
-   color: rgb(122, 255, 197)
-}
+
 
 .ArticleS{
     text-align: center;
     transform: translateY(50px);
 }
 
-h2{
+h1{
 color:#5faaff;
 max-width: 43ch;
 transform: translateX(500px)  translateY(150px)
