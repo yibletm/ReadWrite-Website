@@ -25,40 +25,40 @@ Category: (Category name)
 
 </form>
 
-    <h3>
+    <h3 id="Arti1" onclick="'http://127.0.0.1:5500/RWArtiDetail.html'">
 Article 1: Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit, 
 sed do eiusmod tempor incididunt ut labore 
 et dolore magna aliqua.
     </h3>
-    <h3>
+    <h3 id="Arti2">
 Article 2: Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit, 
 sed do eiusmod tempor incididunt ut labore 
 et dolore magna aliqua.
     </h3>
-    <h3>
+    <h3 id="Arti3">
 Article 3: Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit, 
 sed do eiusmod tempor incididunt ut labore 
 et dolore magna aliqua.
     </h3>
-    <h3>
+    <h3 id="Arti4">
 Article 4: Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit, 
 sed do eiusmod tempor incididunt ut labore 
 et dolore magna aliqua. 
 
 
-<h4>
+<h4 id="ArtiDets">
     Selected Article Link: Lorem ipsum dolor sit amet, 
     consectetur adipiscing elit, sed do eiusmod tempor incididunt 
     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </h4>
-<h4>
-      Selected Article Details: Lorem ipsum dolor sit amet, 
+<h4 id="ArtiAbs">
+      Selected Article Abstract: Lorem ipsum dolor sit amet, 
     consectetur adipiscing elit, sed do eiusmod tempor incididunt 
     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -79,3 +79,20 @@ et dolore magna aliqua.
     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  
 </h4>
+
+<script>
+const link = document.getElementById("Arti1");
+const textElement = document.getElementById('ArtiDets');
+
+link.addEventListener('click', function(event) {
+  event.preventDefault(); // Prevents the link from reloading or jumping the page
+  
+  textElement.innerText=  "Article 1 Link: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+    "ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
+    "exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+  heading.classList.toggle('activated'); // Adds/removes the CSS class
+});
+
+</script>

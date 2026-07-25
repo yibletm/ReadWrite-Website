@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(#5faaff, #ca7bfe);
+    background-repeat: no-repeat;
+    background-size: 100000000px 120px;
+}
+
+.ArticleS{
+    text-align: center;
+    transform: translateY(50px);
+}
+
+h2{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(400px)  translateY(140px)
+}
