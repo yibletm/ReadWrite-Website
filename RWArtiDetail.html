@@ -25,25 +25,25 @@ Category: (Category name)
 
 </form>
 
-    <h3 id="Arti1" href='http://127.0.0.1:5500/RWCateDetail.html'">
+    <h3 id="Article 1" href='http://127.0.0.1:5500/RWCateDetail.html'>
 Article 1: Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit, 
 sed do eiusmod tempor incididunt ut labore 
 et dolore magna aliqua.
     </h3>
-    <h3 id="Arti2">
+    <h3 id="Article 2" href='http://127.0.0.1:5500/RWCateDetail.html'>
 Article 2: Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit, 
 sed do eiusmod tempor incididunt ut labore 
 et dolore magna aliqua.
     </h3>
-    <h3 id="Arti3">
+    <h3 id="Article 3" href='http://127.0.0.1:5500/RWCateDetail.html'>
 Article 3: Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit, 
 sed do eiusmod tempor incididunt ut labore 
 et dolore magna aliqua.
     </h3>
-    <h3 id="Arti4">
+    <h3 id="Article 4" href='http://127.0.0.1:5500/RWCateDetail.html'>
 Article 4: Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit, 
 sed do eiusmod tempor incididunt ut labore 
@@ -82,18 +82,40 @@ et dolore magna aliqua.
 
 <script>
 
-const link = document.getElementById("Arti1");
-const textElement = document.getElementById('ArtiDets');
 
+const overview = document.getElementById('ArtiDets');
+const abstract = document.getElementById('ArtiAbs');
+
+document.querySelectorAll('a').forEach(link => {
 link.addEventListener('click', function(event) {
   event.preventDefault(); // Prevents the link from reloading or jumping the page
 
-  textElement.innerText =  "Article 1 Link: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt "
+    const artiname = event.currentTarget.id;
+  
+  overview.innerText = artiname + " Short Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt "
+  +  "ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
+  +  "exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+   + "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.";
+
+     abstract.innerText = artiname+ " Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt "
+  +  "ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
+  +  "exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+   + "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+   + "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt "
+  +  "ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
+  +  "exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+   + "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+   + "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt "
+  +  "ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
+  +  "exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+   + "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+   + "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt "
   +  "ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
   +  "exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
    + "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.";
 
  textElement.classList.toggle('activated'); // Adds/removes the CSS class
+});
 });
 
 </script>
