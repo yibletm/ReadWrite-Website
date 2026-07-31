@@ -6,11 +6,52 @@ body{
 
 .ArticleS{
     text-align: center;
-    transform: translateY(50px);
+    transform: translateY(20px) translateX(425px);
+    width: 150%;       /* Spans the full width of its container */
+    max-width: 500px;  /* Prevents it from getting too wide on desktop */
+    height: 50px;      /* Increases the height */
+    padding: 10px;     /* Adds space inside the box */
+    font-size: 18px;   /* Makes the text larger */
 }
 
 h2{
 color:#5faaff;
 max-width: 50ch;
 transform: translateX(400px)  translateY(140px)
+}
+
+#Edit1{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(1050px)  translateY(-160px)
+}
+
+#Edit2{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(950px)  translateY(-60px)
+}
+
+#Edit3{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(850px)  translateY(45px)
+}
+
+#Del1{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(1000px)  translateY(-110px)
+}
+
+#Del2{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(900px)  translateY(-10px)
+}
+
+#Del3{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(800px)  translateY(95px)
 }
