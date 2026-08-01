@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(#5faaff, #ca7bfe);
+    background-repeat: no-repeat;
+    background-size: 100000000px 120px;
+}
+
+.ArticleS{
+    text-align: center;
+    transform: translateY(20px) translateX(425px);
+    width: 150%;       /* Spans the full width of its container */
+    max-width: 500px;  /* Prevents it from getting too wide on desktop */
+    height: 50px;      /* Increases the height */
+    padding: 10px;     /* Adds space inside the box */
+    font-size: 18px;   /* Makes the text larger */
+}
+
+#articrehead{
+color:#5fffac;
+max-width: 50ch;
+transform: translateX(400px)  translateY(-25px)
+}
+
+#Crea{
+    color:#5fffac;
+max-width: 50ch;
+transform: translateX(605px)  translateY(-68px)
+}
+
+
+#stats{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(400px)  translateY(-30px)
+}
+
+#Edit1{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(1050px)  translateY(-300px)
+}
+
+#Edit2{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(950px)  translateY(-200px)
+}
+
+#Edit3{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(850px)  translateY(-95px)
+}
+
+#Del1{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(1000px)  translateY(-250px)
+}
+
+#Del2{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(900px)  translateY(-150px)
+}
+
+#Del3{
+color:#5faaff;
+max-width: 50ch;
+transform: translateX(800px)  translateY(-45px)
+}
